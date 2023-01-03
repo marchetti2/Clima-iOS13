@@ -16,6 +16,7 @@
 		ADAA27CE231BC87F00365194 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27CD231BC87F00365194 /* README.md */; };
 		CA96BAE12962773D0051C265 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96BAE02962773D0051C265 /* WeatherData.swift */; };
 		CAD048EF295FF52000474525 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD048EE295FF52000474525 /* WeatherManager.swift */; };
+		CADB51F32963CFBA00D62094 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB51F22963CFBA00D62094 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ADAA27CD231BC87F00365194 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CA96BAE02962773D0051C265 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherData.swift; path = Clima/WeatherData.swift; sourceTree = SOURCE_ROOT; };
 		CAD048EE295FF52000474525 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherManager.swift; path = Clima/WeatherManager.swift; sourceTree = SOURCE_ROOT; };
+		CADB51F22963CFBA00D62094 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		ADAA27CA231BC3FA00365194 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CADB51F22963CFBA00D62094 /* WeatherModel.swift */,
 				CAD048EE295FF52000474525 /* WeatherManager.swift */,
 				CA96BAE02962773D0051C265 /* WeatherData.swift */,
 			);
@@ -176,6 +179,7 @@
 				CA96BAE12962773D0051C265 /* WeatherData.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
 				CAD048EF295FF52000474525 /* WeatherManager.swift in Sources */,
+				CADB51F32963CFBA00D62094 /* WeatherModel.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
