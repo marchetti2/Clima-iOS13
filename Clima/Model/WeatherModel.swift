@@ -13,7 +13,7 @@ struct WeatherModel {
     let temperature: Double
     let cityName: String
     
-    var getConditionString: String {
+    var getConditionImageString: String {
         switch conditionId {
         case 200...232:
             return "cloud.bolt"
