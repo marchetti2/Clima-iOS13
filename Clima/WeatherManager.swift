@@ -31,8 +31,9 @@ struct WeatherManager {
     }
     
     func getData(with url: String) {
+        let urlWithoutSpaces = url.replacingOccurrences(of: " ", with: "%20")
         
-        if let url = URL(string: url) {
+        if let url = URL(string: urlWithoutSpaces) {
             let session = URLSession(configuration: .default)
             let task = session.dataTask(with: url) { data, response, error in
                 if error != nil {
